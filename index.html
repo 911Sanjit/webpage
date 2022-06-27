@@ -10,7 +10,128 @@
     <link rel="stylesheet" href="/style/style.css" />
     <title>Flexbox</title>
   </head>
+
   <body>
-    <main class="container"></main>
+    <!-- header start  -->
+    <header class="header">
+      <div class="container flex__column-container">
+        <nav class="navbar">
+          <div class="navbar-logo"><span>Header Logo</span></div>
+          <ul class="navbar-list">
+            <li class="navbar-list-items">
+              <a href="#random" class="navbar-list-links">Random</a>
+            </li>
+            <li class="navbar-list-items">
+              <a href="#quote" class="navbar-list-links">Quote</a>
+            </li>
+            <li class="navbar-list-items">
+              <a href="#" class="navbar-list-links">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hero">
+          <div class="hero__content-container">
+            <h1 class="hero__content-title">This is Awesome Website</h1>
+            <p class="hero__content-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              hic aliquam, aspernatur quos dolore cupiditate temporibus harum
+              provident repellat est?
+            </p>
+            <a href="#" class="btn btn-signup">Sign up</a>
+          </div>
+          <div class="hero__img-container">
+            <img
+              src="https://source.unsplash.com/random/600x400"
+              alt="random image"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <main>
+      <!-- random section start -->
+      <section class="container random-section" id="random">
+        <h2 class="section-title">Some random information</h2>
+        <div class="box-container">
+          <article class="box__content-container">
+            <div class="box__img-container">
+              <img
+                src="https://source.unsplash.com/random/200x200"
+                alt="random-img"
+              />
+            </div>
+            <h3 class="box-content-description">Lorem ipsum dolor sit amet.</h3>
+          </article>
+          <article class="box__content-container">
+            <div class="box__img-container">
+              <img
+                src="https://source.unsplash.com/random/200x201"
+                alt="random-img"
+              />
+            </div>
+            <h3 class="box-content-description">Lorem ipsum dolor sit amet.</h3>
+          </article>
+          <article class="box__content-container">
+            <div class="box__img-container">
+              <img
+                src="https://source.unsplash.com/random/200x202"
+                alt="random-img"
+              />
+            </div>
+            <h3 class="box-content-description">Lorem ipsum dolor sit amet.</h3>
+          </article>
+          <article class="box__content-container">
+            <div class="box__img-container">
+              <img
+                src="https://source.unsplash.com/random/200x203"
+                alt="random-img"
+              />
+            </div>
+            <h3 class="box-content-description">Lorem ipsum dolor sit amet.</h3>
+          </article>
+        </div>
+      </section>
+      <!-- random section end -->
+      <!-- quote section start -->
+      <section class="quote-container">
+        <div class="container quote__content-container" id="quote">
+          <blockquote class="quote-blockquote">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo
+            at, ipsam, iusto explicabo totam consequuntur velit sint dicta
+            vitae, doloribus debitis ullam illo laudantium voluptate sunt quos
+            placeat? Harum ad nemo voluptas! Voluptatum fugiat ex quo velit
+            beatae quidem vitae quis nesciunt? Quasi voluptatem iure tempora, ex
+            eligendi possimus?
+          </blockquote>
+          <cite class="quote-cite">- Thor God of thunder</cite>
+        </div>
+      </section>
+      <!-- quote section end -->
+      <!-- card section start -->
+      <section class="card-container">
+        <div class="container card">
+          <div class="card__content-container">
+            <h2 class="card__content-title">Call to action! it's time</h2>
+            <p class="card__content-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+              aut.
+            </p>
+          </div>
+          <div class="card-link-container">
+            <a href="#" class="btn btn-card">Sign up</a>
+          </div>
+        </div>
+      </section>
+      <!-- card section end -->
+    </main>
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container">
+        <p>Copyright &copy; Stark Industires 2022</p>
+      </div>
+    </footer>
+    <!-- footer end -->
   </body>
 </html>
